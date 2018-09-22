@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCManagerModule.m \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCManagerModule.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCManager.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCNavigationController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCViewController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCLightBox.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCTabBarController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RCCNotification.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/react-native-navigation/ios/RNNSwizzles.h

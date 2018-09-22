@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/bottom_navigation_item.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/5d22a577ee4a486b793a487905457195/res/layout-v21/bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/bottom_navigation_small_item.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/5d22a577ee4a486b793a487905457195/res/layout-v21/bottom_navigation_small_item.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/3a1be8c42c38bcdd560e8fa333927749/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

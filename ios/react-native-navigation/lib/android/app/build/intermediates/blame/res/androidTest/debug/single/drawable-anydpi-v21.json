@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/5576a61c405044bfd1f6de99bb5920c2/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/5576a61c405044bfd1f6de99bb5920c2/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

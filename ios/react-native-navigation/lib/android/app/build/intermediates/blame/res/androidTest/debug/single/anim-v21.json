@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/5576a61c405044bfd1f6de99bb5920c2/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/guyc/Documents/git/misc/rn/react-native-navigation/lib/android/app/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/guyc/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/5576a61c405044bfd1f6de99bb5920c2/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

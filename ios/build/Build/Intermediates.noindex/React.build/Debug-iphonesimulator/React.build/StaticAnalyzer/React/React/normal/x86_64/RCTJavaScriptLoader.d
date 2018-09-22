@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTPerformanceLogger.h

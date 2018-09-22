@@ -1,0 +1,15 @@
+dependencies: \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTSwitch.m \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTSwitch.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/musabafzal/Desktop/react-native/project/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h
