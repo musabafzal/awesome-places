@@ -20,7 +20,7 @@ class PlaceInput extends Component {
           onChangeText={this.placeNameChangedHandler} />
         <Button
           style={styles.placeButton}
-          onPress={() => (this.props.press(this.state.placeName))}
+          onPress={() => (this.props.onPlaceAdded(this.state.placeName))}
           title="Add" />
       </View >
     )
