@@ -10,13 +10,21 @@ import ButtonWithBackground from '../../components/UI/ButtonWithBackground/Butto
 
 class AuthScreen extends Component {
   state = {
-
+    viewMode: Dimensions.get('window').height > 500 ? "potrait" : "landscape"
   }
-  
+
   constructor(props) {
     super(props);
-    Dimensions.addEventListener("change", (dims) => {
+    Dimensions.addEventListener("change", this.updateStyles)
+  }
 
+  componentWillUnmount() {
+    Dimensions.removeEventListener("change", this.updateStyles)
+  }
+
+  updateStyles = (dims) => {
+    this.setState({
+      viewMode: dims.window.height > 500 ? "potrait" : "landscape"
     })
   }
 
@@ -26,11 +34,11 @@ class AuthScreen extends Component {
 
   render() {
     let headingText = null;
-    if (Dimensions.get('window').height > 500) {
+    if (this.state.viewMode === "potrait") {
       headingText = (
-      <MainText>
-        <HeadingText>Please Log In</HeadingText>
-      </MainText>
+        <MainText>
+          <HeadingText>Please Log In</HeadingText>
+        </MainText>
       );
     }
     return (
@@ -40,11 +48,11 @@ class AuthScreen extends Component {
           <ButtonWithBackground color="#29aaf4" title="Switch to Login" />
           <View style={styles.inputContainer}>
             <DefaultInput placeholder="Your E-Mail Address" style={styles.input} />
-            <View style={styles.passwordContainer} >
-              <View style={styles.passwordWrapper} >
+            <View style={this.state.viewMode === "potrait" ? styles.potraitPasswordContainer : styles.landscapePasswordContainer} >
+              <View style={this.state.viewMode === "potrait" ? styles.potraitPasswordWrapper : styles.landscapePasswordWrapper} >
                 <DefaultInput placeholder="Password" style={styles.input} />
               </View>
-              <View style={styles.passwordWrapper} >
+              <View style={this.state.viewMode === "potrait" ? styles.potraitPasswordWrapper : styles.landscapePasswordWrapper} >
                 <DefaultInput placeholder="Confirm Password" style={styles.input} />
               </View>
             </View>
@@ -73,12 +81,19 @@ const styles = StyleSheet.create({
     width: "100%",
     flex: 1
   },
-  passwordContainer: {
-    flexDirection: Dimensions.get('window').height > 500 ? "column" : "row",
+  landscapePasswordContainer: {
+    flexDirection: "row",
     justifyContent: "space-between"
   },
-  passwordWrapper: {
-    width: Dimensions.get('window').height > 500 ? "100%" : "45%"
+  potraitPasswordContainer: {
+    flexDirection: "column",
+    justifyContent: "flex-start"
+  },
+  landscapePasswordWrapper: {
+    width: "49%"
+  },
+  potraitPasswordWrapper: {
+    width: "100%"
   }
 });
 
