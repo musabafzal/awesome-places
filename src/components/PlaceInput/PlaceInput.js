@@ -3,25 +3,13 @@ import { StyleSheet, View, TextInput, Button } from 'react-native';
 
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 
-class PlaceInput extends Component {
-  state = {
-    placeName: '',
-  }
-
-  placeNameChangedHandler = (val) => {
-    this.setState({ placeName: val })
-  }
-
-  render() {
-    return (
+const placeInput = props => (
       <View style={styles.inputContainer} >
         <DefaultInput placeholder="Place Name" 
-        value={this.state.placeName} 
-        onChangeText={this.placeNameChangedHandler}/>
+        value={props.placeName} 
+        onChangeText={props.onChangeText}/>
       </View >
-    )
-  }
-};
+);
 
 const styles = StyleSheet.create({
   inputContainer: {
@@ -38,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default PlaceInput;
+export default placeInput;

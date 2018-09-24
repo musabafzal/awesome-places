@@ -6,7 +6,7 @@ import imagePlaceHolder from '../../assets/abu.jpg';
 class PickImage extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <View style={styles.placeholder}>
           <Image source={imagePlaceHolder} style={styles.imagePreview} />
         </View>
@@ -19,6 +19,10 @@ class PickImage extends Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    width: "100%",
+    alignItems: "center"
+  },
   placeholder: {
     borderWidth: 1,
     borderColor: "black",
