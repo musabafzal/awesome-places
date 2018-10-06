@@ -7,6 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
+#import <GoogleMaps/GoogleMaps.h>
 #import "AppDelegate.h"
 #import <React/RCTBundleURLProvider.h>
 
@@ -25,6 +26,7 @@
   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
   
+  [GMSServices provideAPIKey:@"AIzaSyDVwolmieMxu3fGJ0FHl5fJEe1DH80_baM"];
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   self.window.backgroundColor = [UIColor whiteColor];
   [[RCCManager sharedInstance] initBridgeWithBundleURL:jsCodeLocation launchOptions:launchOptions];

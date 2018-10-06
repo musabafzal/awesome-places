@@ -35,12 +35,32 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* projectTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		3E449E0F2168FED200B15C79 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449DE62168FED200B15C79 /* GoogleMapsBase.framework */; };
+		3E449E132168FF4500B15C79 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E102168FF2600B15C79 /* GoogleMaps.framework */; };
+		3E449E172168FF9000B15C79 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E162168FF9000B15C79 /* GoogleMapsCore.framework */; };
+		3E449E192168FFD900B15C79 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E449E182168FFD900B15C79 /* GoogleMaps.bundle */; };
+		3E449E1B2169000F00B15C79 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E1A2169000E00B15C79 /* Accelerate.framework */; };
+		3E449E1D2169001900B15C79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E1C2169001900B15C79 /* CoreData.framework */; };
+		3E449E1F2169002500B15C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E1E2169002500B15C79 /* CoreGraphics.framework */; };
+		3E449E212169002F00B15C79 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E202169002F00B15C79 /* CoreImage.framework */; };
+		3E449E232169003A00B15C79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E222169003900B15C79 /* CoreLocation.framework */; };
+		3E449E252169004600B15C79 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E242169004600B15C79 /* CoreTelephony.framework */; };
+		3E449E272169005100B15C79 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E262169005100B15C79 /* CoreText.framework */; };
+		3E449E292169005900B15C79 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E282169005900B15C79 /* GLKit.framework */; };
+		3E449E2B2169006200B15C79 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E2A2169006200B15C79 /* ImageIO.framework */; };
+		3E449E2D2169007800B15C79 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E2C2169007800B15C79 /* libc++.tbd */; };
+		3E449E2F2169009500B15C79 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E2E2169009400B15C79 /* libz.tbd */; };
+		3E449E312169009F00B15C79 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E302169009F00B15C79 /* OpenGLES.framework */; };
+		3E449E33216900A900B15C79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E32216900A900B15C79 /* QuartzCore.framework */; };
+		3E449E35216900B300B15C79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E34216900B300B15C79 /* SystemConfiguration.framework */; };
+		3E449E37216900BC00B15C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E449E36216900BC00B15C79 /* UIKit.framework */; };
 		3EADE3A3215694670073C26A /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADE3A2215694530073C26A /* libReactNativeNavigation.a */; };
 		3EFAED8D215405A000A039AD /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAED8C2154055600A039AD /* libRNVectorIcons.a */; };
 		3EFAED8F21540A1700A039AD /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EFAED8E21540A1600A039AD /* Ionicons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		F93877A638CDE653A6E5CA09 /* libPods-project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD19D3624F52CEB807506F6 /* libPods-project.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +302,13 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		3E1EA67621690F6C006DF2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1EA67221690F6C006DF2FF /* AirMaps.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
+			remoteInfo = AirMaps;
+		};
 		3EADE3A1215694530073C26A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3EADE39D215694530073C26A /* ReactNativeNavigation.xcodeproj */;
@@ -356,13 +383,36 @@
 		2D02E47B1E0B4A5D006451C7 /* project-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* project-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1EA67221690F6C006DF2FF /* AirMaps.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
+		3E449DE62168FED200B15C79 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3E449E102168FF2600B15C79 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		3E449E162168FF9000B15C79 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		3E449E182168FFD900B15C79 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		3E449E1A2169000E00B15C79 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3E449E1C2169001900B15C79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E449E1E2169002500B15C79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E449E202169002F00B15C79 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3E449E222169003900B15C79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3E449E242169004600B15C79 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3E449E262169005100B15C79 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3E449E282169005900B15C79 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3E449E2A2169006200B15C79 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3E449E2C2169007800B15C79 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3E449E2E2169009400B15C79 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3E449E302169009F00B15C79 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3E449E32216900A900B15C79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E449E34216900B300B15C79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3E449E36216900BC00B15C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3EADE39D215694530073C26A /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "react-native-navigation/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
 		3EFAED622154055600A039AD /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		3EFAED8E21540A1600A039AD /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		5A5952A1293A3ACC97037AB3 /* Pods-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		60E9F653E47DC3F1A6B1F586 /* Pods-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project/Pods-project.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		BBD19D3624F52CEB807506F6 /* libPods-project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,14 +428,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E449E37216900BC00B15C79 /* UIKit.framework in Frameworks */,
+				3E449E35216900B300B15C79 /* SystemConfiguration.framework in Frameworks */,
+				3E449E33216900A900B15C79 /* QuartzCore.framework in Frameworks */,
+				3E449E312169009F00B15C79 /* OpenGLES.framework in Frameworks */,
+				3E449E2F2169009500B15C79 /* libz.tbd in Frameworks */,
+				3E449E2D2169007800B15C79 /* libc++.tbd in Frameworks */,
+				3E449E2B2169006200B15C79 /* ImageIO.framework in Frameworks */,
+				3E449E292169005900B15C79 /* GLKit.framework in Frameworks */,
+				3E449E272169005100B15C79 /* CoreText.framework in Frameworks */,
+				3E449E252169004600B15C79 /* CoreTelephony.framework in Frameworks */,
+				3E449E232169003A00B15C79 /* CoreLocation.framework in Frameworks */,
+				3E449E212169002F00B15C79 /* CoreImage.framework in Frameworks */,
+				3E449E1F2169002500B15C79 /* CoreGraphics.framework in Frameworks */,
+				3E449E1D2169001900B15C79 /* CoreData.framework in Frameworks */,
+				3E449E1B2169000F00B15C79 /* Accelerate.framework in Frameworks */,
 				3EADE3A3215694670073C26A /* libReactNativeNavigation.a in Frameworks */,
 				3EFAED8D215405A000A039AD /* libRNVectorIcons.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				3E449E132168FF4500B15C79 /* GoogleMaps.framework in Frameworks */,
+				3E449E0F2168FED200B15C79 /* GoogleMapsBase.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				3E449E172168FF9000B15C79 /* GoogleMapsCore.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
@@ -393,6 +461,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				F93877A638CDE653A6E5CA09 /* libPods-project.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,9 +610,36 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E449E36216900BC00B15C79 /* UIKit.framework */,
+				3E449E34216900B300B15C79 /* SystemConfiguration.framework */,
+				3E449E32216900A900B15C79 /* QuartzCore.framework */,
+				3E449E302169009F00B15C79 /* OpenGLES.framework */,
+				3E449E2E2169009400B15C79 /* libz.tbd */,
+				3E449E2C2169007800B15C79 /* libc++.tbd */,
+				3E449E2A2169006200B15C79 /* ImageIO.framework */,
+				3E449E282169005900B15C79 /* GLKit.framework */,
+				3E449E262169005100B15C79 /* CoreText.framework */,
+				3E449E242169004600B15C79 /* CoreTelephony.framework */,
+				3E449E222169003900B15C79 /* CoreLocation.framework */,
+				3E449E202169002F00B15C79 /* CoreImage.framework */,
+				3E449E1E2169002500B15C79 /* CoreGraphics.framework */,
+				3E449E1C2169001900B15C79 /* CoreData.framework */,
+				3E449E1A2169000E00B15C79 /* Accelerate.framework */,
+				3E449E162168FF9000B15C79 /* GoogleMapsCore.framework */,
+				3E449E102168FF2600B15C79 /* GoogleMaps.framework */,
+				3E449DE62168FED200B15C79 /* GoogleMapsBase.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				BBD19D3624F52CEB807506F6 /* libPods-project.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E1EA67321690F6C006DF2FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EA67721690F6C006DF2FF /* libAirMaps.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3EADE39E215694530073C26A /* Products */ = {
@@ -583,6 +679,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3E1EA67221690F6C006DF2FF /* AirMaps.xcodeproj */,
 				3EADE39D215694530073C26A /* ReactNativeNavigation.xcodeproj */,
 				3EFAED622154055600A039AD /* RNVectorIcons.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
@@ -613,12 +710,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3E449E182168FFD900B15C79 /* GoogleMaps.bundle */,
 				3EFAED8E21540A1600A039AD /* Ionicons.ttf */,
 				13B07FAE1A68108700A75B9A /* project */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* projectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				C8256A4C53C878008A413E74 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -643,6 +742,15 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C8256A4C53C878008A413E74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60E9F653E47DC3F1A6B1F586 /* Pods-project.debug.xcconfig */,
+				5A5952A1293A3ACC97037AB3 /* Pods-project.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -670,10 +778,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "project" */;
 			buildPhases = (
+				AAF433515A3C147D02EC7F23 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				AEBB89D90169D9535342FD87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -756,6 +866,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 3E1EA67321690F6C006DF2FF /* Products */;
+					ProjectRef = 3E1EA67221690F6C006DF2FF /* AirMaps.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1048,6 +1162,13 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		3E1EA67721690F6C006DF2FF /* libAirMaps.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAirMaps.a;
+			remoteRef = 3E1EA67621690F6C006DF2FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		3EADE3A2215694530073C26A /* libReactNativeNavigation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1114,6 +1235,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3EFAED8F21540A1700A039AD /* Ionicons.ttf in Resources */,
+				3E449E192168FFD900B15C79 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,6 +1284,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		AAF433515A3C147D02EC7F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBB89D90169D9535342FD87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-project/Pods-project-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-project/Pods-project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1267,12 +1433,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E9F653E47DC3F1A6B1F586 /* Pods-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-navigation/ios/**";
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1286,11 +1458,17 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5952A1293A3ACC97037AB3 /* Pods-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-navigation/ios/**";
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",

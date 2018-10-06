@@ -1,5 +1,49 @@
 dependencies: \
   /Users/musabafzal/Desktop/react-native/project/ios/project/AppDelegate.m \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
+  /Users/musabafzal/Desktop/react-native/project/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h \
   /Users/musabafzal/Desktop/react-native/project/ios/project/AppDelegate.h \
   /Users/musabafzal/Desktop/react-native/project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
   ../node_modules/react-native-navigation/ios/RCCManager.h \

@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
 MERGED from [:react-native-vector-icons] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/c0bae6aa0d8d8f0ddaa39aa5e5932afc/AndroidManifest.xml:2:1-15:12
@@ -11,6 +12,11 @@ MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/musabaf
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/7e3ba96e16163b27cf9f35b7d288b3b4/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/715eaed65a0ad1be5566b9569d37b766/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/df034e78a9f86434bbe8ace11bde98ef/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/c8613be45683de67183cca08f4cf9218/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:transition:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/cae45437fc079ee0e2319487f0244901/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4f051446cb9d63b68503b41999d96b9b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/2b934f62526a2aaba184937ef946bfcf/AndroidManifest.xml:10:1-18:12
@@ -31,25 +37,29 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /Users/musabafzal/
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/251b9eddf7190b28939d9be2556fefbf/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/6b8d9c2f741793a59c879a5d1bd4a88e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fb3c1d518a90e4a3117fefec5c35059a/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
 	package
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:2:5-26
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -59,7 +69,7 @@ MERGED from [com.facebook.react:react-native:0.55.4] /Users/musabafzal/.gradle/c
 	android:name
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:7:5-24:19
+ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:7:5-27:17
 MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/c0bae6aa0d8d8f0ddaa39aa5e5932afc/AndroidManifest.xml:13:5-20
@@ -72,6 +82,16 @@ MERGED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches
 MERGED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/715eaed65a0ad1be5566b9569d37b766/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/df034e78a9f86434bbe8ace11bde98ef/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/df034e78a9f86434bbe8ace11bde98ef/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/c8613be45683de67183cca08f4cf9218/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/c8613be45683de67183cca08f4cf9218/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:transition:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/cae45437fc079ee0e2319487f0244901/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/cae45437fc079ee0e2319487f0244901/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4f051446cb9d63b68503b41999d96b9b/AndroidManifest.xml:29:5-20
@@ -134,10 +154,18 @@ MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/pr
 		ADDED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:23:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:24:5-26:64
+	android:value
+		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:26:7-62
+	android:name
+		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:25:7-52
 uses-sdk
 INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
@@ -152,6 +180,16 @@ MERGED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches
 MERGED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/715eaed65a0ad1be5566b9569d37b766/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/df034e78a9f86434bbe8ace11bde98ef/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/df034e78a9f86434bbe8ace11bde98ef/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:17:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/c8613be45683de67183cca08f4cf9218/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.2.4.aar/c8613be45683de67183cca08f4cf9218/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/cae45437fc079ee0e2319487f0244901/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/cae45437fc079ee0e2319487f0244901/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4f051446cb9d63b68503b41999d96b9b/AndroidManifest.xml:21:5-23:54
@@ -202,6 +240,10 @@ INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/mai
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
 activity#com.reactnativenavigation.controllers.NavigationActivity
 ADDED from [:react-native-navigation] /Users/musabafzal/Desktop/react-native/project/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
 	android:configChanges
@@ -236,9 +278,35 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/musabafzal/.gradl
 		ADDED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/715eaed65a0ad1be5566b9569d37b766/AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/715eaed65a0ad1be5566b9569d37b766/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.2.4.aar/33b9be33867f19b69e8f8114827c0ab9/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-base-10.2.4.aar/a57dbd540fd0913718b85bccbf01cd99/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.4.aar/4786448eedd81df6fd0fc1da4629b599/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/musabafzal/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/2a70e58fdcd70a4d9fe53dbd9e104ee5/AndroidManifest.xml:9:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/musabafzal/Desktop/react-native/project/android/app/src/main/AndroidManifest.xml:1:1-29:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
