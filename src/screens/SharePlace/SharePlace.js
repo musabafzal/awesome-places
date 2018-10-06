@@ -15,13 +15,24 @@ class SharePlaceScreen extends Component {
   }
 
   state = {
-    placeName: null
+    controls: {
+      placeName: null,
+      location: {
+        latitude: null,
+        longitude: null,
+        valid: false
+      },
+      image: {
+        uri: null,
+        valid: false
+      }
+    }
   }
 
   constructor(props) {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
-  } 
+  }
 
   onNavigatorEvent = event => {
     if (event.type === "NavBarButtonPress") {
@@ -34,15 +45,54 @@ class SharePlaceScreen extends Component {
   }
 
   placeNameChangedHandler = val => {
-    this.setState({
-      placeName: val
-    });
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          placeName: val,
+        },
+      }
+    }
+    );
   }
 
   placeAddedHandler = () => {
-    if(this.state.placeName.trim()!==""){
-      this.props.onAddPlace(this.state.   placeName);
+    if (this.state.controls.placeName.trim() !== "") {
+      this.props.onAddPlace(
+        this.state.controls.placeName,
+        this.state.controls.location,
+        this.state.controls.image
+      );
     }
+  }
+
+  locationPickedHandler = location => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          location: {
+            latitude: location.latitude,
+            longitude: location.longitude,
+            valid: true
+          }
+        }
+      }
+    })
+  }
+
+  imagePickedHandler = (image) => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          image: {
+            uri: image.uri,
+            valid: true
+          }
+        }
+      }
+    })
   }
 
   render() {
@@ -50,10 +100,10 @@ class SharePlaceScreen extends Component {
       <ScrollView>
         <View style={styles.container}>
           <HeadingText><MainText>Share a Place with us!</MainText></HeadingText>
-          <PickImage />
-          <PickLocation />
+          <PickImage onImagePick={this.imagePickedHandler}/>
+          <PickLocation onLocationPick={this.locationPickedHandler} />
           <PlaceInput placeName={this.state.placeName} onChangeText={this.placeNameChangedHandler} />
-          <Button title="Share the Place!" onPress={this.placeAddedHandler} />
+          <Button title="Share the Place!" onPress={this.placeAddedHandler} disabled={!this.state.controls.location.valid} />
         </View>
       </ScrollView>
     );
@@ -68,7 +118,7 @@ const styles = StyleSheet.create({
 })
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName) => dispatch(addPlace(placeName))
+    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
   }
 }
 

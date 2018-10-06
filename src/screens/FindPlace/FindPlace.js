@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, TouchableOpacity, StyleSheet, Text, Animated } from 'react-native';
 import { connect } from 'react-redux';
+import { MapView } from 'react-native-maps';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
 
@@ -48,6 +49,9 @@ class FindPlaceScreen extends Component {
       duration: 500,
       useNativeDriver: true
     }).start();
+    this.setState({
+      placesLoaded: true
+    })
   }
 
   render() {
