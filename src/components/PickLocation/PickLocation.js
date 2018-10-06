@@ -9,17 +9,26 @@ class PickLocation extends Component {
       longitude: -112.4013726,
       latitudeDelta: 0.0122,
       longitudeDelta: Dimensions.get("window").width / Dimensions.get("window").height * 0.0122
-    }
+    },
+    locationChosen: true
   }
 
   render() {
+    let marker = null;
+    
+    if(this.state.locationChosen) {
+      marker = <MapView.Marker coordinate={this.state.focusedLoaction}/>
+    }
+
     return (
       <View style={styles.container}>
           <MapView 
           provider={PROVIDER_GOOGLE}
           initialRegion={this.state.focusedLoaction}
           style={styles.map}
-          />
+          >
+            {marker}
+          </MapView>
           <View style={styles.button}>
             <Button title="Locate Me" />
           </View>
