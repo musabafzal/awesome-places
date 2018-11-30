@@ -6,6 +6,8 @@
 	<string>You want to take an image?</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>You want to share an image?</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Let&apos;s share a place?</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Ionicons.ttf</string>

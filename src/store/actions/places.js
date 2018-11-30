@@ -1,11 +1,20 @@
 import { ADD_PLACE, DELETE_PLACE } from './actionTypes';
 
 export const addPlace = (placeName, location, image) => {
-  return {
-    type: ADD_PLACE,
-    placeName: placeName,
-    location: location,
-    image: image
+  return dispatch => {
+    const placeData = {
+      name: placeName,
+      location: location
+    }
+    fetch("https://rn-course-1538831387650.firebaseio.com/places.json", {
+      method: "post",
+      body: JSON.stringify(placeData)
+    })
+    .catch(err => console.log(err))
+    .then(res => res.json())
+    .then(parsedRes => {
+      console.log(parsedRes)
+    })
   };
 };
 
