@@ -14,6 +14,7 @@ class PlaceDetailScreen extends Component {
 
   constructor(props) {
     super(props);
+    console.log(this.props.selectedPlace);
     Dimensions.addEventListener("change", this.updateStyles)
   }
 

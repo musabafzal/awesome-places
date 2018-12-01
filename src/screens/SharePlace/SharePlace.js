@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Button, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, Button, ScrollView, StyleSheet, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 
 import { addPlace } from '../../store/actions/index';
@@ -23,7 +23,7 @@ class SharePlaceScreen extends Component {
         valid: false
       },
       image: {
-        uri: null,
+        value: null,
         valid: false
       }
     }
@@ -61,7 +61,7 @@ class SharePlaceScreen extends Component {
       this.props.onAddPlace(
         this.state.controls.placeName,
         this.state.controls.location,
-        this.state.controls.image
+        this.state.controls.image.value
       );
     }
   }
@@ -87,7 +87,7 @@ class SharePlaceScreen extends Component {
         controls: {
           ...prevState.controls,
           image: {
-            uri: image.uri,
+            value: image,
             valid: true
           }
         }
@@ -96,6 +96,13 @@ class SharePlaceScreen extends Component {
   }
 
   render() {
+    let submitButton = <Button title="Share the Place!" onPress={this.placeAddedHandler} disabled={!this.state.controls.location.valid} />
+    ;
+    
+    if(this.props.isLoading) {
+      submitButton = <ActivityIndicator/>;
+    }
+
     return (
       <ScrollView>
         <View style={styles.container}>
@@ -103,7 +110,7 @@ class SharePlaceScreen extends Component {
           <PickImage onImagePick={this.imagePickedHandler}/>
           <PickLocation onLocationPick={this.locationPickedHandler} />
           <PlaceInput placeName={this.state.placeName} onChangeText={this.placeNameChangedHandler} />
-          <Button title="Share the Place!" onPress={this.placeAddedHandler} disabled={!this.state.controls.location.valid} />
+          <View style={styles.button}>{submitButton}</View>
         </View>
       </ScrollView>
     );
@@ -116,10 +123,17 @@ const styles = StyleSheet.create({
     alignItems: "center"
   }
 })
+
+const  mapStateToProps = state => {
+  return {
+    isLoading: state.ui.isLoading 
+  }
+}
+
 const mapDispatchToProps = dispatch => {
   return {
     onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
   }
 }
 
-export default connect(null, mapDispatchToProps)(SharePlaceScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(SharePlaceScreen);

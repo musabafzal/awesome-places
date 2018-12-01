@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, TouchableOpacity, StyleSheet, Text, Animated } from 'react-native';
 import { connect } from 'react-redux';
-import { MapView } from 'react-native-maps';
+import { getPlaces } from '../../store/actions/index';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
 
@@ -20,6 +20,11 @@ class FindPlaceScreen extends Component {
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
   }
 
+  componentDidMount() {
+    this.props.onLoadPlaces();
+  }
+  
+  
   onNavigatorEvent = event => {
     if (event.type === "NavBarButtonPress") {
       if (event.id === "sideDrawerToggle") {
@@ -112,4 +117,10 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps)(FindPlaceScreen);
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoadPlaces: () => dispatch(getPlaces())
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FindPlaceScreen);
