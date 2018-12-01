@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { View, Keyboard, TouchableWithoutFeedback, Dimensions, StyleSheet, ImageBackground, KeyboardAvoidingView } from 'react-native';
+import { ActivityIndicator, View, Keyboard, TouchableWithoutFeedback, Dimensions, StyleSheet, ImageBackground, KeyboardAvoidingView } from 'react-native';
 import { connect } from 'react-redux';
 
-import startMainTabs from '../MainTabs/startMainTabs';
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
@@ -71,8 +70,7 @@ class AuthScreen extends Component {
       email: this.state.controls.email.value,
       password: this.state.controls.password.value
     };
-    this.props.onLogin(authData);
-    startMainTabs();
+    this.props.onLogin(authData, this.state.authMode);
   }
 
   updateInputState = (key, value) => {
@@ -119,6 +117,11 @@ class AuthScreen extends Component {
   render() {
     let headingText = null;
     let confirmPasswordControl = null;
+    let buttonLogin = <ButtonWithBackground color="#29aaf4" title="Submit" onPress={this.loginHandler} disabled={!this.state.controls.confirmPassword.valid && this.state.authMode === "signup" || !this.state.controls.email.valid || !this.state.controls.password.valid} />
+
+    if(this.props.uiLoading) {
+      buttonLogin = <ActivityIndicator />
+    }
 
     if (this.state.viewMode === "potrait") {
       headingText = (
@@ -182,7 +185,7 @@ class AuthScreen extends Component {
               </View>
             </View>
           </TouchableWithoutFeedback>
-          <ButtonWithBackground color="#29aaf4" title="Submit" onPress={this.loginHandler} disabled={!this.state.controls.confirmPassword.valid && this.state.authMode === "signup" || !this.state.controls.email.valid || !this.state.controls.password.valid} />
+          <View>{buttonLogin}</View>
         </KeyboardAvoidingView>
       </ImageBackground>
     );
@@ -222,10 +225,16 @@ const styles = StyleSheet.create({
   }
 });
 
+const mapStateToProps = state => {
+  return {
+    uiLoading: state.ui.isLoading
+  }
+}
+
 const mapDispatchToProps = dispatch => {
   return {
-    onLogin: (authData) => dispatch(tryAuth(authData))
+    onLogin: (authData, authMode) => dispatch(tryAuth(authData, authMode))
   };
 };
 
-export default connect(null, mapDispatchToProps)(AuthScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(AuthScreen);
