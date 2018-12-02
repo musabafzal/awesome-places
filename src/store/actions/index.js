@@ -4,7 +4,12 @@ export {
   deletePlace
 } from './places';
 
-export { tryAuth } from './auth';
+export { 
+  tryAuth, 
+  authGetToken,
+  authAutoSignIn,
+  authLogout
+} from './auth';
 
 export {
   uiStartLoading,
