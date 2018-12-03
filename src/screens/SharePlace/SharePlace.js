@@ -14,24 +14,13 @@ class SharePlaceScreen extends Component {
     navBarButtonColor: "orange"
   }
 
-  state = {
-    controls: {
-      placeName: null,
-      location: {
-        latitude: null,
-        longitude: null,
-        valid: false
-      },
-      image: {
-        value: null,
-        valid: false
-      }
-    }
-  }
-
   constructor(props) {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
+  }
+
+  componentWillMount() {
+    this.reset()
   }
 
   onNavigatorEvent = event => {
@@ -45,25 +34,31 @@ class SharePlaceScreen extends Component {
   }
 
   placeNameChangedHandler = val => {
-    this.setState(prevState => {
-      return {
-        controls: {
-          ...prevState.controls,
-          placeName: val,
-        },
+    if (val.trim() != "") {
+      this.setState(prevState => {
+        return {
+          controls: {
+            ...prevState.controls,
+            placeName: {
+              value: val,
+              valid: true
+            }
+          },
+        }
       }
+      );
     }
-    );
   }
 
   placeAddedHandler = () => {
-    if (this.state.controls.placeName.trim() !== "") {
-      this.props.onAddPlace(
-        this.state.controls.placeName,
-        this.state.controls.location,
-        this.state.controls.image.value
-      );
-    }
+    this.props.onAddPlace(
+      this.state.controls.placeName.value,
+      this.state.controls.location,
+      this.state.controls.image.value
+    );
+    this.reset()
+    this.imagePicker.reset()
+    this.locationPicker.reset()
   }
 
   locationPickedHandler = location => {
@@ -95,21 +90,43 @@ class SharePlaceScreen extends Component {
     })
   }
 
+  reset = () => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          placeName: {
+            value: "",
+            valid: false
+          },
+          location: {
+            latitude: null,
+            longitude: null,
+            valid: false
+          },
+          image: {
+            value: null,
+            valid: false
+          }
+        }
+      }
+    })
+  }
+
   render() {
-    let submitButton = <Button title="Share the Place!" onPress={this.placeAddedHandler} disabled={!this.state.controls.location.valid} />
-    ;
-    
-    if(this.props.isLoading) {
-      submitButton = <ActivityIndicator/>;
+    let submitButton = <Button title="Share the Place!" onPress={this.placeAddedHandler} disabled={!this.state.controls.location.valid || !this.state.controls.placeName.valid || !this.state.controls.image.valid} />
+      ;
+
+    if (this.props.isLoading) {
+      submitButton = <ActivityIndicator />;
     }
 
     return (
       <ScrollView>
         <View style={styles.container}>
           <HeadingText><MainText>Share a Place with us!</MainText></HeadingText>
-          <PickImage onImagePick={this.imagePickedHandler}/>
-          <PickLocation onLocationPick={this.locationPickedHandler} />
-          <PlaceInput placeName={this.state.placeName} onChangeText={this.placeNameChangedHandler} />
+          <PickImage onImagePick={this.imagePickedHandler} ref={ref => (this.imagePicker = ref)} />
+          <PickLocation onLocationPick={this.locationPickedHandler} ref={ref => (this.locationPicker = ref)} />
+          <PlaceInput placeName={this.state.controls.placeName.value} onChangeText={this.placeNameChangedHandler} />
           <View style={styles.button}>{submitButton}</View>
         </View>
       </ScrollView>
@@ -124,9 +141,9 @@ const styles = StyleSheet.create({
   }
 })
 
-const  mapStateToProps = state => {
+const mapStateToProps = state => {
   return {
-    isLoading: state.ui.isLoading 
+    isLoading: state.ui.isLoading
   }
 }
 

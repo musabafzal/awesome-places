@@ -23,9 +23,14 @@ class FindPlaceScreen extends Component {
   componentDidMount() {
     this.props.onLoadPlaces();
   }
-  
-  
+
+
   onNavigatorEvent = event => {
+    if (event.type === "ScreenChangedEvent") {
+      if(event.id === "willAppear") {
+        this.props.onLoadPlaces()
+      }
+    }
     if (event.type === "NavBarButtonPress") {
       if (event.id === "sideDrawerToggle") {
         this.props.navigator.toggleDrawer({
@@ -62,7 +67,7 @@ class FindPlaceScreen extends Component {
   render() {
     let content = (
       <Animated.View style={{
-        opacity: this.state.removeAnim, 
+        opacity: this.state.removeAnim,
         transform: [
           {
             scale: this.state.removeAnim.interpolate({
@@ -71,7 +76,7 @@ class FindPlaceScreen extends Component {
             })
           }
         ]
-        }}>
+      }}>
         <TouchableOpacity onPress={this.placesSearchHandler} >
           <View style={styles.searchButton} >
             <Text style={styles.searchButtonText} >Find Places</Text>
