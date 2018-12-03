@@ -1,0 +1,4 @@
+#Tue Dec 04 01:31:33 PKT 2018
+base.0=/Users/musabafzal/Desktop/react-native/project/android/app/build/intermediates/transforms/dexMerger/release/0
+renamed.0=classes.dex
+path.0=classes.dex
